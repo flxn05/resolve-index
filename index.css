@@ -20,16 +20,18 @@ body {
 }
 
 main {
-  margin-top: 20vh;
+  margin-top: 10vh;
   background-color: black;
   padding: 72px;
   border-radius: 8px;
-  height: 50vh;
+  height: 65vh;
   width: 33vw;
   text-align: center;
   box-shadow: 0 0 128px black;
   animation: start 2s forwards;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
 }
 
 .headline {
@@ -44,8 +46,10 @@ main {
 }
 
 .content-container {
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: flex;
+  flex-direction: column;
 }
 .content-intro {
   margin-top: 5vh;
@@ -87,40 +91,10 @@ main {
   font-size: 8px;
   text-align: center;
 }
-
-#bottom-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 36px;
-  padding-right: 36px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 5vh;
-  z-index: 5;
-  background-color: rgb(0, 0, 0);
-}
 .beta {
-  background-color: rgba(255, 0, 0, 0.74);
+  background-color: rgb(194, 0, 0);
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
   border-radius: 4px;
-  padding: 2px 6px 2px 6px;
-}
-.bottom-l,
-.bottom-c,
-.bottom-r {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.bottom-l {
-  flex: 1;
-}
-.bottom-r {
-  flex: 1;
-  padding-left: 144px;
-}
-.bottom-c {
-  flex: 4;
 }
