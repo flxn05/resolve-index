@@ -1,0 +1,17 @@
+@keyframes button {
+  0% {border-color: red; box-shadow: 0 0 36px  red; transform: scale(1);}
+  25% {border-color: yellow; box-shadow: 0 0 36px yellow;}
+  50% {border-color: green; box-shadow: 0 0 36px green; transform: scale(1.025);}
+  75% {border-color: blue; box-shadow: 0 0 36px blue;}
+  100% {border-color: red; box-shadow: 0 0 36px red; transform: scale(1);}
+}
+
+@keyframes start {
+  0% {transform: scale(0.9); translate: 0 7.5vw; opacity: 0; filter: blur(3px);}
+  100% {transform: scale(1); translate: 0 0vw; opacity: 1;}
+}
+
+@keyframes bg {
+  0% {filter: blur(96px);}
+  100% {filter: blur(128px);}
+}
